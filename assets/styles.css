@@ -15,4 +15,65 @@
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   list-style-type: none;
+  
 }
+
+html{
+  background: #131415;
+}
+
+/* inicio seccion categorias  */
+
+.categorias{
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+  padding: 50px;
+  color: var(--white);
+}
+
+.categorias h3 {
+  font-weight: 800;
+  font-size: 15px;
+
+}
+
+.container-categorias__cards{
+  display: flex;
+  gap: 30px;
+  
+}
+#pizza-icon{
+  margin-top: -90px;
+  margin-bottom: 5px;
+  height: 71px;
+}
+.cards__icon{
+  margin-top: -103px;
+}
+.categorias__cards{
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+  border-radius: 15px;
+  padding: 20px;
+  gap: 10px;
+  width: 147px;
+  height: 171px;
+  align-items: center;
+}
+
+.categorias__cards--info{
+  font-size: 15px;
+  color: var(--white);
+}
+
+.categorias__cards--linea{
+  width: 24px;
+  height: 4px;
+  border: 15px;
+  border-radius: 15px;
+  background: var(--gradient);
+}
+
+/* fin seccion categorias  */
