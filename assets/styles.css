@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  :root {
+    --bg-color:#252525;
+    --yellow:#FFA400;
+    --rose:#FC2933;
+    --white:#FFFFFF;
+    --gradient:linear-gradient(90deg,#FFA100 0%, #FB103D 100%);
+}
+
+*{
+    background-color: var(--bg-color);
+}
+
+/*-------------------   header -------------------------------*/
+/*--se aplican estilos para el header, se añede el check-box para  actiuvar el menu de  carro de compras y el usuario  -*/
+/*---el menu de compras y usuario aun sin definir-----*/
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-top:20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+.home{
+    display: flex;
+    gap: 8px;
+    color:  var(--white);
+    justify-items: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#home{
+    display: none;
+}
+
+#user{
+    display: none;
+}
+
+.lista-compras,
+.user{
+    width: 500px;
+    height: 500px;
+    top: 81px;
+    right: 20px;
+    border-radius:10px;
+    background-color: aqua;
+    position: absolute;
+    display: none;
+}
+
+#home:checked ~ .lista-compras{
+    display: block;
+}
+#user:checked ~ .user{
+    display: block;
+}
+
+nav i{
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------*/ 
+
+
