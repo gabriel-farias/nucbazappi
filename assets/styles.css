@@ -41,6 +41,12 @@ main {
     color: white;
 }
 
+.titulo1 h2{
+font-size: 30px;
+font-weight: 600;
+margin-top: 0px;
+
+}
 .titulo1 p {
     font-weight: 300;
     font-size: 14px;
@@ -58,6 +64,7 @@ main {
 }
 
 .img1 {
+    position: absolute;
     width: 200px;
     height: 150px;
     left: 900px;
@@ -68,8 +75,8 @@ main {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 950px;
-    top: 70px
+    left: 990px;
+    top: 15px
 
 }
 
