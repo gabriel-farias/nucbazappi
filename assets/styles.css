@@ -107,7 +107,7 @@ nav i{
 .container-categorias__cards{
   display: flex;
   gap: 30px;
-  
+  flex-wrap: wrap;
 }
 #pizza-icon{
   margin-top: -90px;
@@ -140,6 +140,19 @@ nav i{
   border: 15px;
   border-radius: 15px;
   background: var(--gradient);
+}
+
+.categorias__cards:hover{ 
+  animation: scale-up-center 1s ease 0s 1 normal forwards;
+  
+}
+@keyframes scale-up-center {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
 }
 
 /* fin seccion categorias  */
