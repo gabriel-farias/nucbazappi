@@ -59,17 +59,17 @@ main {
 
 .img1 {
     width: 200px;
-    height: 200px;
+    height: 150px;
     left: 900px;
     top: 100px;
 }
 
 .img2{
     position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 850px;
-    top: 85px
+    width: 250px;
+    height: 250px;
+    left: 950px;
+    top: 70px
 
 }
 
