@@ -41,10 +41,11 @@ main {
     color: white;
 }
 
-.titulo1 h2{
-font-size: 30px;
-font-weight: 600;
-margin-top: 0px;
+.titulo1 span {
+  display: flex;
+  font-size: 47px;
+  font-weight: 600;
+  margin-top: 0px;
 }
 
 .titulo1 p {
@@ -52,6 +53,7 @@ margin-top: 0px;
     font-size: 14px;
     width: 75%;
     color:white;
+    margin-top: 30px;
 }
 
 .ver a {
@@ -76,18 +78,17 @@ margin-top: 0px;
 
 .img1 {
     position: absolute;
-    width: 200px;
-    height: 150px;
-    left: 900px;
-    top: 100px;
+    width: 150px;
+    height: 200px;
+    
 }
 
 .img2{
     position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 990px;
-    top: 15px
+    width: 280px;
+    height: 280px;
+   margin-left: -95px;
+   margin-top: -95px;
 
 }
 
