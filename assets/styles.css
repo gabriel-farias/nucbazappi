@@ -44,6 +44,10 @@ nav{
     gap: 50px;
 }
 
+.logo{
+    height: 55px;
+}
+
 .home{
     display: flex;
     gap: 8px;
@@ -98,8 +102,8 @@ main {
 }
 
 #titulo {
-    margin-top: 65px;
-    padding: 70px 100px;
+    margin-top: 55px;
+    padding: 10px 20px;
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -124,32 +128,32 @@ main {
 .titulo1 span {
   display: flex;
   font-size: 47px;
-  font-weight: 600;
+  font-weight: 400;
   margin-top: 0px;
 }
 
 .titulo1 p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 12px;
     width: 75%;
     color:white;
-    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .ver a {
   background: var(--gradient);
   color: white;
   width: 50px;
-  padding: 12px 35px;
+  padding: 8px 30px;
   border-radius: 10px;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
 
 .portada {
     width: 200px;
-    padding: 24px;
+    padding: 20px 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,16 +163,15 @@ main {
 .img1 {
     position: absolute;
     width: 150px;
-    height: 200px;
-    
+    height: 250px;
 }
 
 .img2{
     position: absolute;
     width: 280px;
-    height: 280px;
-   margin-left: -95px;
-   margin-top: -95px;
+    height: 300px;
+    right: 130px;
+   margin-top: -50px;
 
 }
 
