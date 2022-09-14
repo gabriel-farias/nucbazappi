@@ -186,6 +186,66 @@ footer span{
     color: white;
 }
 
+/* inicio seccion recomendados */
+
+.recomendaciones{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  padding: 50px;
+  color: var(--white);
+}
+
+.container-recomendaciones-cards{
+  display: flex;
+  justify-content: center; 
+  align-content: center; 
+  gap: 50px;  
+  flex-wrap: wrap;
+}
+
+.recomendaciones-cards{
+  display:flex;
+  flex-direction: row;
+  width: 350px;
+  background-color: var(--bg-color);
+  height: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 15px;
+  gap: 10px;
+}
+
+.recomendaciones-cards a{
+  margin-top: 18px;
+}
+
+.texto-rec{
+  font-weight: 100;
+  font-size: small;
+}
+
+.textopz{
+  width: 130px;
+}
+
+.recomendaciones-cards:hover{ 
+  animation: scale-up-center 1s ease 0s 1 normal forwards;
+  
+}
+@keyframes scale-up-center {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+/* fin seccion recomendados */
+
+
 /* inicio seccion categorias  */
 
 
