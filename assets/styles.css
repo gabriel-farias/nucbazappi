@@ -102,7 +102,7 @@ main {
 
 #titulo {
     margin-top: 55px;
-    padding: 10px 20px;
+    padding: 10px 110px;
     max-width: 1200px;
     display: flex;
     justify-content: stretch;
@@ -128,13 +128,13 @@ main {
 .titulo1 span {
   display: flex;
   font-size: 47px;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 0px;
 }
 
 .titulo1 p {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 20px;
     width: 75%;
     color:white;
     margin-bottom: 20px;
@@ -144,10 +144,10 @@ main {
   background: var(--gradient);
   color: white;
   width: 50px;
-  padding: 8px 30px;
-  border-radius: 10px;
+  padding: 15px 40px;
+  border-radius: 15px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -161,18 +161,17 @@ main {
 
 .img1 {
     position: absolute;
-    width: 150px;
-    height: 250px;
+    width: 200px;
+    height: 300px;
 }
 
 .img2{
     position: absolute;
-    width: 280px;
-    height: 300px;
-    right: 130px;
-   margin-top: -50px;
-    width: 245px;
-    height: 245px;
+    width: 330px;
+    height: 350px;
+    right: 20px;
+    margin-top: -50px;
+   
 }
 
 
